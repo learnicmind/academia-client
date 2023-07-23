@@ -1,0 +1,63 @@
+ [
+  {
+    "collegeName": "Harvard University",
+    "collegeImage": "https://i.ibb.co/6vRv99y/harv.jpg",
+    "collegeDetails": "Harvard University is a prestigious Ivy League institution known for its excellence in education and research.",
+    "admissionDates": "September 2023",
+    "events": ["Freshers' Orientation", "Commencement Ceremony", "Research Symposium"],
+    "sports": ["Football", "Basketball", "Soccer", "Swimming"],
+    "researchHistory": "Harvard University has a long history of groundbreaking research in various disciplines.",
+    "collegeRatings": 4.9
+  },
+  {
+    "collegeName": "Stanford University",
+    "collegeImage": "https://i.ibb.co/S6Qw7R3/stan.jpg",
+    "collegeDetails": "Stanford University is a world-renowned institution that emphasizes innovation and interdisciplinary research.",
+    "admissionDates": "August 2023",
+    "events": ["Family Weekend", "Stanford Arts Showcase", "Entrepreneurship Conference"],
+    "sports": ["Volleyball", "Tennis", "Golf", "Track & Field"],
+    "researchHistory": "Stanford University has been at the forefront of groundbreaking scientific discoveries.",
+    "collegeRatings": 4.7
+  },
+  {
+    "collegeName": "Massachusetts Institute of Technology (MIT)",
+    "collegeImage": "https://i.ibb.co/3zK6qHF/mit.jpg",
+    "collegeDetails": "MIT is a top-rated institution globally, known for its emphasis on science, engineering, and technology.",
+    "admissionDates": "July 2023",
+    "events": ["HackMIT", "MIT Tech Conference", "MIT Media Lab Expo"],
+    "sports": ["Sailing", "Fencing", "Water Polo", "Cross Country"],
+    "researchHistory": "MIT is renowned for its contributions to cutting-edge technological research.",
+    "collegeRatings": 4.8
+  },
+  {
+    "collegeName": "University of Cambridge",
+    "collegeImage": "https://i.ibb.co/x7dtcGt/cambridge.jpg",
+    "collegeDetails": "University of Cambridge is one of the oldest and most prestigious universities in the world.",
+    "admissionDates": "October 2023",
+    "events": ["May Ball", "Science Festival", "Cambridge Union Debates"],
+    "sports": ["Rowing", "Cricket", "Rugby", "Hockey"],
+    "researchHistory": "Cambridge University has a rich history of significant contributions to various academic disciplines.",
+    "collegeRatings": 4.6
+  },
+  {
+    "collegeName": "University of Tokyo",
+    "collegeImage": "https://i.ibb.co/Kw6T4mC/tokyo.jpg",
+    "collegeDetails": "University of Tokyo is a leading institution in Japan, renowned for its academic excellence.",
+    "admissionDates": "April 2023",
+    "events": ["Cherry Blossom Festival", "Cultural Exchange Fair", "Science and Technology Symposium"],
+    "sports": ["Judo", "Kendo", "Sumo Wrestling", "Archery"],
+    "researchHistory": "University of Tokyo is at the forefront of scientific research and technological advancements.",
+    "collegeRatings": 4.5
+  },
+  {
+    "collegeName": "University of Oxford",
+    "collegeImage": "https://i.ibb.co/qsxrRCj/oxford.jpg",
+    "collegeDetails": "University of Oxford is one of the oldest and most prestigious universities in the world.",
+    "admissionDates": "June 2023",
+    "events": ["Oxford Ball", "Literary Festival", "Oxford Union Debates"],
+    "sports": ["Polo", "Squash", "Lacrosse", "Rowing"],
+    "researchHistory": "Oxford University has a long tradition of groundbreaking research and academic excellence.",
+    "collegeRatings": 4.7
+  }
+]
+
