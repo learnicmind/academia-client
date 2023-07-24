@@ -8,6 +8,8 @@ import MyCollege from "../pages/MyCollege/MyCollege";
 import CollegeDetails from "../pages/CollegeDetails/CollegeDetails";
 import Login from "../pages/Login/Login";
 import SignUp from "../pages/SignUp/SignUp";
+import PrivateRoute from "./PrivateRoute";
+import AdmissionForm from "../AdmissionForm/AdmissionForm";
 
 
 
@@ -36,6 +38,12 @@ export const router = createBrowserRouter([
             {
                 path: 'admission',
                 element: <Admission></Admission>
+            },
+            {
+                path: '/admission/:id',
+                element: <PrivateRoute><AdmissionForm></AdmissionForm></PrivateRoute>,
+                loader: ({params}) => fetch(`https://academia-server-eight.vercel.app/admission/${params.id}`)
+
             },
             {
                 path: 'myCollege',
