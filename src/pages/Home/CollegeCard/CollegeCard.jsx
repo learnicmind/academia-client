@@ -1,5 +1,6 @@
 import React from "react";
 import useColleges from "../../../hooks/useColleges";
+import { Link } from "react-router-dom";
 
 const CollegeCard = () => {
 
@@ -43,11 +44,13 @@ const CollegeCard = () => {
                                         <p><span className=" font-bold ">Ratings:</span> <span className=" font-bold ">{college.collegeRatings}</span></p>
                                     </div>
                                     <div>
-                                        <p
-                                            className="btn border-0 px-2 py-1  font-semibold text-white bg-[#14b8a6] rounded-lg shadow-lg hover:bg-[#2f5752]  cursor-pointer mt-2"
-                                        >
-                                            Details
-                                        </p>
+                                        <Link to={`/colleges/${college._id}`}>
+                                            <p
+                                                className="btn border-0 px-2 py-1  font-semibold text-white bg-[#14b8a6] rounded-lg shadow-lg hover:bg-[#2f5752]  cursor-pointer mt-2"
+                                            >
+                                                Details
+                                            </p>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
