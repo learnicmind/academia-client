@@ -4,7 +4,7 @@ const useColleges = () => {
     const [colleges, setColleges] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/colleges`)
+        fetch(`https://academia-server-eight.vercel.app/colleges`)
         .then(res => res.json())
         .then(data => {
             setColleges(data)

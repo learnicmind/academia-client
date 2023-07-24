@@ -7,6 +7,7 @@ import Admission from "../pages/Admission/Admission";
 import MyCollege from "../pages/MyCollege/MyCollege";
 import CollegeDetails from "../pages/CollegeDetails/CollegeDetails";
 import Login from "../pages/Login/Login";
+import SignUp from "../pages/SignUp/SignUp";
 
 
 
@@ -30,7 +31,7 @@ export const router = createBrowserRouter([
             {
                 path: '/colleges/:id',
                 element: <CollegeDetails></CollegeDetails>,
-                loader: ({params}) => fetch(`http://localhost:5000/colleges/${params.id}`)
+                loader: ({params}) => fetch(`https://academia-server-eight.vercel.app/colleges/${params.id}`)
             },
             {
                 path: 'admission',
@@ -43,6 +44,10 @@ export const router = createBrowserRouter([
             {
                 path: 'login',
                 element: <Login></Login>
+            },
+            {
+                path: 'signup',
+                element: <SignUp></SignUp>
             }
         ]
     }
